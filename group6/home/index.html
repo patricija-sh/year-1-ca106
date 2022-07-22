@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang= "en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A super exciting page filled with various exciting animals!" />
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--This means that the browser will (probably) render the width of the page at the width of its own screen. -->
+    
+    <title>Animals</title>
+
+    <!-- font + background (won't work in header idk) -->
+    <style>
+        body {
+            margin:0;
+            font-family:'Arial', sans-serif;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <main>
+        <header class="home-header">    
+            <div class="navbar">
+                <div class="no-drop">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="birds/index.html" style="text-decoration: none;">Birds</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="birds/flamingo.html">Flamingo</a>
+                        <a href="birds/penguin.html">Penguin</a>
+                        <a href="birds/robin.html">Robin</a>
+                        <a href="birds/toucan.html">Toucan</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="insects/index.html" style="text-decoration: none;">Insects</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="insects/ants.html">Ant</a>
+                        <a href="insects/beetle.html">Beetle</a>
+                        <a href="insects/butterfly.html">Butterfly</a>
+                        <a href="insects/mosquito.html">Mosquito</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="mammals/index.html" style="text-decoration: none;">Mammals</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="mammals/lion.html">Lion</a>
+                        <a href="mammals/panda.html">Panda</a>
+                        <a href="mammals/koala.html">Koala</a>
+                        <a href="mammals/meerkat.html">Meerkat</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="marine/index.html" style="text-decoration: none;">Marine Life</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="marine/christmas-tree-worm.html">Christmas Tree worm</a>
+                        <a href="marine/nudibranch.html">Nudibranch</a>
+                        <a href="marine/peacock-mantis-shrimp.html">Peacock Mantis Shrimp</a>
+                        <a href="marine/sea-angel.html">Sea Angel</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="reptiles/index.html" style="text-decoration: none;">Reptiles</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="reptiles/lizard.html">Lizard</a>
+                        <a href="reptiles/crocodile.html">Crocodile</a>
+                        <a href="reptiles/snake.html">Snake</a>
+                        <a href="reptiles/turtle.html">Turtle</a>
+                    </div>
+                </div> 
+
+                <div class="no-drop">
+                    <a href="contact.html" style="float:right;">Contact</a>
+                </div>
+            </div>
+
+                <h1>Welcome.</h1>
+
+        </header>
+
+
+
+        <section class="home-intro"> <!-- general info + did you know fact-->
+            <div>
+                <h2>Explore Earth's Species</h2>
+
+                <p>Delve into this wondrous world of creatures! We have picked several interesting animals, ranging from fluffy flamingoes to slithering snakes.</p>
+                <p>Browse through, expand your knowledge and impress your friends with these whacky animal facts! </p>
+
+                <div class="home-vid">
+                    <video controls width="500" height="284">
+                        <source src="videos/wilderbeest.mp4" type="video/mp4">
+                        <source src="videos/wilderbeest.webm" type="video/webm">
+                    </video>
+                </div>
+                <br><br>
+                <p>Happy scrolling!</p>
+
+            </div>
+        </section>
+
+
+
+        <section class="choose">
+            <div class="break"></div>
+
+            <div id="birds">
+                <div class="right"> 
+                    <h2>Birds</h2>
+                    <p> Take to the skies and learn about our avian friends! Animals include flamingos, penguins, robins and toucans to choose from.</p>
+                </div>
+                        
+                <div class="r-find-out-more">
+                    <a href="birds/index.html">Find out more.</a>
+                </div>
+            </div>
+
+            <div class="break"></div>
+
+            <div id="insects">
+                <div class="left"> 
+                    <h2>Insects</h2>
+                    <p> Insects are wonderful creatures that traverse our lands. From ants and beetles to butterflies and mosquitoes, you'll find a lot of bugs on this site!</p>
+                </div>
+                        
+                <div class="l-find-out-more" style="position: relative; margin-right: 1000px;">
+                    <a href="insects/index.html">Find out more.</a>
+                </div>
+            </div>
+
+            <div class="break"></div>
+
+            <div id="mammals">
+                <div class="right"> 
+                    <h2>Mammals</h2>
+                    <p>Mammals live in multiple landscapes such as land, water and underground. Animals include lions, pandas, koalas and meerkats.</p>
+                </div>
+                        
+                <div class="r-find-out-more">
+                    <a href="mammals/index.html">Find out more.</a>
+                </div>
+            </div>
+
+            <div class="break"></div>
+
+            <div id="marine">
+                <div class="left"> 
+                    <h2>Marine Life</h2>
+                    <p> Plunge into the mystical world of sea creatures! Animals include Christmas tree-worms, nudibranches, peacock mantis shrimps and sea angels.</p>
+                </div>
+                        
+                <div class="l-find-out-more">
+                    <a href="marine/index.html">Find out more.</a>
+                </div>
+            </div>
+
+            <div class="break"></div>
+
+            <div id="reptiles">
+                <div class="right"> 
+                    <h2>Reptiles</h2>
+                    <p> Reptiles consist of a wide range of animals such as snakes, turtles, crocodiles and lizards!</p>
+                </div>
+                        
+                <div class="r-find-out-more">
+                    <a href="reptiles/index.html">Find out more.</a>
+                </div>
+            </div>
+
+            <div class="break"></div>
+        </section>
+
+
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <img src="images/goat.jpg" alt="A goat peacefully resting on a rock whilst basking in the sun's light." width="400" height="300">
+            <p>Looking for a challenge?<br>
+               Enter our competition and have a chance to win amazing prizes!</p>
+            <a href="contact.html">Simply click this link.</a>
+        </section>
+
+
+        
+        <div class="break"></div>
+
+
+
+        <footer id="footer">
+            <p> 
+                &copy;  <a href="dcu.ie/">DCU 2019-2020</a>
+                <span >&middot;</span>
+                <span>Group 6</span>
+                <span>&middot;</span> 
+                <span>This is student coursework.</span>
+                <span>&middot;</span> 
+                <span>Lecturer <a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> 
+                <span>&middot;</span> 
+                <span><a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/></span> 
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>

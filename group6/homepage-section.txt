@@ -1,0 +1,244 @@
+<html lang= "en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- fonts and other stuff. -->
+    <meta name="description" content="A super exciting page filled with various exciting animals!" />
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--This means that the browser will (probably) render the width of the page at the width of its own screen. -->
+    
+    <title>Birds</title>
+
+    <style>
+        body {
+            margin:0;
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+
+    <!-- All images are taken from Unsplash.com-->
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <main>
+        **********<header id="HEADER NAME">***********
+            <div class="navbar">
+                <div class="no-drop">
+                    <a href="../index.html">Home</a>
+                </div>
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="../birds/index.html" style="text-decoration: none;">Birds</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="../birds/flamingo.html">Flamingo</a>
+                        <a href="../birds/penguin.html">Penguin</a>
+                        <a href="../birds/robin.html">Robin</a>
+                        <a href="../birds/toucan.html">Toucan</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="../insects/index.html" style="text-decoration: none;">Insects</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="../insects/ants.html">Ant</a>
+                        <a href="../insects/beetle.html">Beetle</a>
+                        <a href="../insects/butterfly.html">Butterfly</a>
+                        <a href="../insects/mosquito.html">Mosquito</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="../mammals/index.html" style="text-decoration: none;">Mammals</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="../mammals/lion.html">Lion</a>
+                        <a href="../mammals/panda.html">Panda</a>
+                        <a href="../mammals/koala.html">Koala</a>
+                        <a href="../mammals/meerkat.html">Meerkat</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="../marine/index.html" style="text-decoration: none;">Marine Life</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="../marine/christmas-tree-worm.html">Christmas Tree worm</a>
+                        <a href="../marine/nudibranch.html">Nudibranch</a>
+                        <a href="../marine/peacock-mantis-shrimp.html">Peacock Mantis Shrimp</a>
+                        <a href="../marine/sea-angel.html">Sea Angel</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="../reptiles/index.html" style="text-decoration: none;">Reptiles</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="../reptiles/lizard.html">Lizard</a>
+                        <a href="../reptiles/crocodile.html">Crocodile</a>
+                        <a href="../reptiles/snake.html">Snake</a>
+                        <a href="../reptiles/turtle.html">Turtle</a>
+                    </div>
+                </div> 
+
+
+                <div class="no-drop">
+                    <a href="../contact.html" style="float:right;">Contact</a>
+                </div>
+	</div>
+
+            <h1>SECTION HEADING</h1>
+        </header>
+
+
+
+        ********<section id="intro">********
+            <div>
+                <h2>HEADING</h2>
+                <p>INFORMATION</p>
+
+                    
+                <p>INFORMATION</p>
+    
+                <div id=""> <!-- more info style differently if you wanted -->
+                    <h2>HEADING</h2>
+                    <p>INFORMATION</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="type"> <!-- CHOOSE DIFFERENT ANIMAL-->
+            
+            <div class="white-part"> <!-- ANIMAL 1 -->
+
+                <div class="row">
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+                </div>
+
+                <h2>ANIMAL 1</h2>
+
+                <div class="caption"> <!--ANIMAL 1 CAPTION-->
+                    <p> DESCRIPTION </p>
+                </div>
+            </div>
+
+
+            <div class="grey-part"> <!-- ANIMAL 2 SECTION-->
+
+                <div class="row">
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+                </div>
+
+                <h2>ANIMAL 2</h2>
+
+                <div class="caption"> <!--ANIMAL 2 CAPTION-->
+                    <p> DESCRIPTION </p>
+                </div>
+            </div>
+
+            <div class="white-part"> <!-- ANIMAL 3 -->
+
+                <div class="row">
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+                </div>
+
+                <h2>ANIMAL 3</h2>
+
+                <div class="caption"> <!--ANIMAL 3 CAPTION-->
+                    <p> DESCRIPTION </p>
+                </div>
+            </div>
+
+            <div class="grey-part"> <!-- ANIMAL 4 SECTION-->
+
+                <div class="row">
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+
+                    <div class="column">
+                        <a href=""><img src="images/" alt="" width="300" height="300"></a>
+                    </div>
+                </div>
+
+                <h2>ANIMAL 4</h2>
+
+                <div class="caption"> <!--ANIMAL 4 CAPTION-->
+                    <p> DESCRIPTION </p>
+                </div>
+            </div>
+
+                <br>
+                <br>
+            </div>
+        </section>
+
+
+
+        <footer id="footer">
+            <p> 
+                &copy;  <a href="dcu.ie/">DCU 2019-2020</a>
+                <span >&middot;</span>
+                <span>Group 6</span>
+                <span>&middot;</span> 
+                <span>This is student coursework.</span>
+                <span>&middot;</span> 
+                <span>Lecturer <a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> 
+                <span>&middot;</span> 
+                <span><a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/></span> 
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>

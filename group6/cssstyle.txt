@@ -1,0 +1,87 @@
+#HEADER NAME {
+    background-image: url("../images/birdheader.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#HEADER NAME h1{
+    text-align: left;
+    margin-top: 465px;
+    padding: 20px;
+    font-size: 270%;
+    background-color: rgba(0, 0, 0, 0.685);
+    border-left: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+#intro {
+    background-color: rgb(235, 235, 235);
+    font-size: 150%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+
+/*  more info styled differently if you want */
+# {
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 20px;
+}
+
+/* H2 elements sized up and their links styled */
+#type h2 {
+    font-size: 200%;
+}
+
+/* The Circular Images */
+#type img{
+    border-radius: 50%;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+/* Three images side-by-side */
+.column {
+    float: left;
+    width: 10%;
+    margin-left: 220px;
+}
+  
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Description underneath images */
+.caption {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 150%;
+}
+
+/* Alternating background colours */
+.white-part{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.grey-part {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}

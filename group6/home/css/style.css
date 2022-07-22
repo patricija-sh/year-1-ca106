@@ -1,0 +1,333 @@
+/* The Navigation Bar */ 
+.navbar {                           /* The horizontal navbar codes where taken from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+    overflow: hidden;               /* and tweaked. */
+    background-color: white;      /* The dropdown codes were taken from https://www.w3schools.com/css/css_dropdowns.asp*/
+}                                   /* and tweaked. */
+
+.sections a:hover{                  /* Background colour of navbar headings changes to black + text turns white */
+    color: white;
+    background-color: black;
+}
+  
+.navbar a {                         /* All of the links contained in the navbar have these properties. */
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    color: none;
+    text-decoration: none;
+}
+
+.no-drop a:hover{
+    background-color: black;
+    color: white;
+}
+
+.dropdown {                         /* The stuff in the dropdown div section are hidden from view until the headings will be hovered  over. */
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .sections {               /* The headings and the dropdown content underneath them have these properties */
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    text-decoration: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {             
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;                     /* Displays on top of anything behind the dropdown content. */
+    margin-top: 45px;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd; /* white */
+
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Home Section */
+.home-header {
+    background-image: url("../images/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 600px;
+}
+
+.home-header h1{        /* text on top of header's image */
+    margin-top: 465px;
+    padding: 20px;
+    font-size: 270%;
+    background-color: black;    /* Fallback colour */
+    background-color: rgba(0, 0, 0, 0.685);
+    border-left: 100px;
+    text-align: center;
+    color: white;
+}
+
+.home-intro {
+    padding: 20px;
+    text-align: center;
+    font-size: 150%;
+}
+
+/* Choosing a section of animals.*/
+.right, .left {                    /* Alternating right and left descriptions of sections */
+    font-size: 150%;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+}
+
+.right{
+    position: relative;
+    margin-left: 1000px;
+}
+
+.left{
+    margin-left: 20px;
+}
+
+/* Find out more links */
+.r-find-out-more a, .l-find-out-more a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: large;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.r-find-out-more a:hover, .l-find-out-more a:hover{
+    background-color: rgb(202, 151, 179);   /* cute pastel pink colour */
+    color: black;
+}
+
+.r-find-out-more a{             /* positioned to the right */
+    position: relative;
+    margin-left: 1080px;
+}
+
+.l-find-out-more a{             /* positioned to the left */
+    margin-left: 90px;
+}
+
+.break {                                /* Black line break */
+    background-color:black;
+    height: 50px;
+}
+
+#birds {                                    /* different background for each section */
+    background-image: url("../images/birds.jpg");
+    background-size: 1550px 590px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#insects {
+    background-image: url("../images/insects.jpg");
+    background-size: 1550px 600px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#mammals {
+    background-image: url("../images/mammals.jpg");
+    background-size: 1550px 610px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+
+#marine {
+    background-image: url("../images/marine.jpg");
+    background-size: 1550px 600px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#reptiles {
+    background-image: url("../images/reptiles.jpg");
+    background-size: 1550px 590px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Contact Us Link in Homepage */
+#contact {
+    background-color: rgb(235, 235, 235);   /* light grey background */
+    background-size: 1550px 400px;
+    padding: 50px;
+    text-align: center;
+    font-size: 150%;
+}
+
+#contact a{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+}
+
+#contact a:hover{
+    background-color: rgb(160, 140, 114);   /* very pale brown */
+    color: white;
+}
+
+/* The Footer */
+#footer p{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* Contact Us */
+.contact-header {
+    background-image: url("../images/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 600px;
+}
+
+.contact-header h1{
+    margin-top: 465px;
+    padding: 20px;
+    font-size: 270%;
+    background-color: black;    /* fallback colour */
+    background-color: rgba(0, 0, 0, 0.685);
+    border-left: 100px;
+    text-align: center;
+    color: white;
+}
+
+.contact h2{									/* Black heading centered with some padding. */
+	color: black;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: rgb(194, 172, 163);   /* pale brown colour */
+ 	border: solid;
+	border-radius: 15px 50px;
+	border-style: double;
+	width: 200px;
+	margin-left: 650px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+input[type=text], textarea {				/* Styling the form, this code is from w3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+    width: 100%; 								/* Full width. */
+    padding: 15px; 							    /* Some padding. */ 
+    border: 3px solid black; 				    /* Black border. */
+    border-radius: 10px; 						/* Rounded borders. */
+    box-sizing: border-box; 					/* Make sure that padding and width stays in place. */
+    margin-top: 6px; 							/* Add a top margin. */
+    margin-bottom: 16px; 						/* Bottom margin. */
+    resize: vertical;							/* Allow the user to vertically resize the textarea (not horizontally). */
+}
+
+input[type=submit] {						/* Styling the submit button, this too is from: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+  background-color: black;
+  color: white;								/* Text in submit button is white. */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;						/* Rounded submit button */
+  cursor: pointer;
+}
+
+.form {
+	background-color: rgb(153, 141, 115);   /* pale brown colour */
+	border: solid;
+	border-radius: 15px 50px;
+	border-style: double;
+	padding: 15px;
+	margin-left: 500px;
+	margin-right: 500px;
+}
+
+#con-intro {
+    display: inline-block;
+    position: relative;
+    margin-left: 560px;
+    height: 180px;
+    background-color: #ebebeb;  /* light gray colour */
+    font-size: 20px;
+    color: black;
+    width: 25%;
+    padding: 25px;
+}
+
+/* List of People's Contributions */
+.contrib {
+	padding-left: 60px;
+	background-color: #ebebeb;  /* light grey colour */
+	padding-top: 20px;
+	padding-bottom: 50px;
+	font-size: 150%;
+}
+
+.contrib ul{
+	list-style-type: circle;
+}
+
+.contrib img{
+	float: right;
+	border: 2px solid;
+	height: 35%;
+	width: 30%;
+	margin-right: 150px;
+}
+
+
+/* Table of Individual Problems Encountered */
+#problems {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 1400px;
+    margin-left: 50px;
+}
+  
+#problems td, #customers th {
+    border: 1px solid #ddd; /* white */
+    padding: 8px;
+}
+  
+#problems tr:nth-child(even){background-color: #ADD8E6;} /* pastel blue */
+  
+#problems tr:hover {background-color: #ddd;}    /* white */
+  
+#problems th {
+    padding: 20px;
+    background-color: #CD853F;  /* light brown colour */
+    color: white;
+}

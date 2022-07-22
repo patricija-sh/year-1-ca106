@@ -1,0 +1,409 @@
+
+/* The Navigation Bar */ 
+.navbar {                           /* The horizontal navbar codes where taken from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+    overflow: hidden;               /* and tweaked. */
+    background-color: white;      /* The dropdown codes were taken from https://www.w3schools.com/css/css_dropdowns.asp */
+}                                   /* and tweaked. */
+
+.sections a:hover{                  /* Background colour of navbar headings changes to black + text turns white */
+    color: white;
+    background-color: black;
+}
+  
+.navbar a {                         /* All of the links contained in the navbar have these properties */
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    color: none;
+    text-decoration: none;
+}
+
+.no-drop a:hover{
+    background-color: black;
+    color: white;
+}
+
+.dropdown {                         /* The stuff in the dropdown div section are hidden from view until the headings will be hovered  over. */
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .sections {               /* The headings and the dropdown content underneath them have these properties */
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    text-decoration: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {             
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;                     /* Displays on top of anything behind it */
+    margin-top: 45px;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+    
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+  /* Bird HomePage */
+#bird-header {
+    background-image: url("../images/birdheader.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#bird-header h1{    /* description on top of bird image */
+    text-align: left;
+    margin-top: 465px;
+    padding: 20px;
+    font-size: 270%;
+    background-color: black;    /* fallback colour */
+    background-color: rgba(0, 0, 0, 0.685);
+    border-left: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+#birdhome-intro {
+    background-color: rgb(235, 235, 235); /* gray colour */
+    font-size: 150%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+/* Text on Theropod Image when Hovering */
+.container {
+    position: relative;
+    width: 33%;
+    margin-left: 500px; /* so it's centered */
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+  
+.overlay {  /* i got these codes from https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp and tweaked it a bit. */
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0); /* fallback black colour */
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease; /* so the slide doesn't appear immediately */
+    color: white;
+}
+  
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);   /* Chrome, Safari 3, Opera 12 */
+    -ms-transform: translate(-50%, -50%);   /* IE 9 */
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* 'Did You Know?' Fact */
+#intro-fact {
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 20px;
+}
+
+/* H2 elements sized up and their links styled */
+#type h2 {
+    font-size: 200%;
+}
+
+/* The Circular Images */
+#type img{
+    border-radius: 50%;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+/* Three images side-by-side */
+.column {               /* i got this from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp and tweaked it a bit */
+    float: left;
+    width: 10%;
+    margin-left: 220px;
+}
+  
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Description underneath images */
+.caption {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 150%;
+}
+
+/* Alternating background colours */
+.white-part{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.grey-part {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+/* The Footer */
+#footer p{
+    padding-top: 50px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+
+/* Flamingo Page */
+.header-txt {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.header-txt h1 {
+    font-size: 270%;
+}
+
+/* Flamingo Introduction */
+.intro {
+    padding-top: 30px;
+    padding: 30px;
+    padding-bottom: 150px;
+}
+
+
+.intro img{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+.general {
+    text-align: center;
+    font-size: 150%;
+}
+
+.info {
+    font-size: large;
+}
+
+/* Flamingo Fun Facts with Fixed Background */
+#flam-facts {
+    background-image: url("../images/flam.jpg");
+    background-attachment: fixed;                   /* Bug in IE, jittering background when scrolling with mouse */
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#flam-facts h2{
+    text-align: center;
+    font-size: 200%;
+    color: white;
+}
+
+.fact {
+    background-color: rgb(255, 255, 255); /* white fallback colour */
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 25%;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#flam-facts .fact{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* More Detailed Flamingo Information */
+.more-info {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-size: 150%;
+}
+
+/* Video Styling */
+#vid {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#vid video{
+    border: 5px solid white;
+    padding: 0;
+}
+
+#vid p{
+    font-size: small;
+}
+
+#vid a{
+    color: white;
+}
+
+/* Images of FLamingoes and Some Facts */
+.pics {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.pics h2{
+    text-align: center;
+    font-size: 200%;
+}
+
+.pic-container img{
+    margin-left: 20px;
+}
+
+.pic-container{
+    float: left;
+}
+
+.more-facts {
+    padding: 25px;
+    color: white;
+    font-size: 125%;
+    width: 300px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+#flam-pics .more-facts{
+    background-color: rgb(158, 55, 81); /* rich pink */
+    border-top: 10px solid rgb(80, 37, 50); /* dark pink game */
+}
+
+/* Penguin Page */
+#peng-facts {
+    background-image: url("../images/peng.jpg");
+    background-attachment: fixed;                   /* Bug in IE, jittering background when scrolling with mouse */
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#peng-facts h2{
+    margin-left: 850px;
+    font-size: 200%;
+    color: white;
+}
+
+#peng-facts .fact {
+    margin-left: 800px;
+}
+
+#peng-pics .more-facts{
+    background-color: rgb(24, 30, 85);  /* dark blue */
+    border-top: 10px solid rgb(8, 20, 36);  /* dark navy blue */
+}
+
+/* Robin Page */
+#rob-facts {
+    background-image: url("../images/rob.jpg");
+    background-attachment: fixed;                   /* Bug in IE, jittering background when scrolling with mouse */
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#rob-facts h2{
+    margin-left: 100px;
+    font-size: 200%;
+    color: white;
+}
+
+#rob-facts .fact {
+    margin-left: 50px;
+}
+
+#rob-pics .more-facts{
+    background-color: rgb(90, 21, 0);   /* dark red */
+    border-top: 10px solid rgb(24, 16, 10); /* dark brown */
+}
+
+
+/* Toucan Page */
+#touc-facts{
+    background-image: url("../images/touc.jpg");
+    background-attachment: fixed;                   /* Bug in IE, jittering background when scrolling with mouse */
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#touc-facts h2{
+    margin-left: 100px;
+    font-size: 200%;
+    color: white;
+}
+
+#touc-facts .fact {
+    margin-left: 50px;
+}
+
+#touc-pics .more-facts{
+    background-color: rgb(0, 126, 21); /* green */
+    border-top: 10px solid rgb(177, 174, 0);    /* yellow */
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang= "en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A super exciting page filled with various exciting animals!" />
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--This means that the browser will (probably) render the width of the page at the width of its own screen. -->
+    
+    <title>Contact</title>
+
+    <!-- font + background (won't work in header idk) -->
+    <style>
+        body {
+            margin:0;
+            font-family:'Arial', sans-serif;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <main>
+        <header class="contact-header">    
+            <div class="navbar">
+                <div class="no-drop">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="birds/index.html" style="text-decoration: none;">Birds</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="birds/flamingo.html">Flamingo</a>
+                        <a href="birds/penguin.html">Penguin</a>
+                        <a href="birds/robin.html">Robin</a>
+                        <a href="birds/toucan.html">Toucan</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="insects/index.html" style="text-decoration: none;">Insects</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="insects/ants.html">Ant</a>
+                        <a href="insects/beetle.html">Beetle</a>
+                        <a href="insects/butterfly.html">Butterfly</a>
+                        <a href="insects/mosquito.html">Mosquito</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="mammals/index.html" style="text-decoration: none;">Mammals</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="mammals/lion.html">Lion</a>
+                        <a href="mammals/panda.html">Panda</a>
+                        <a href="mammals/koala.html">Koala</a>
+                        <a href="mammals/meerkat.html">Meerkat</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="marine/index.html" style="text-decoration: none;">Marine Life</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="marine/christmas-tree-worm.html">Christmas Tree worm</a>
+                        <a href="marine/nudibranch.html">Nudibranch</a>
+                        <a href="marine/peacock-mantis-shrimp.html">Peacock Mantis Shrimp</a>
+                        <a href="marine/sea-angel.html">Sea Angel</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <div class="sections">
+                        <a href="reptiles/index.html" style="text-decoration: none;">Reptiles</a>
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="reptiles/lizard.html">Lizard</a>
+                        <a href="reptiles/crocodile.html">Crocodile</a>
+                        <a href="reptiles/snake.html">Snake</a>
+                        <a href="reptiles/turtle.html">Turtle</a>
+                    </div>
+                </div> 
+
+
+                <div class="no-drop">
+                    <a href="contact.html" style="float:right;">Contact</a>
+                </div>
+            </div>
+
+                <h1>Contact Us and Contributions.</h1>
+        </header>
+
+
+
+        <section class="contact"> <!-- general info + did you know fact-->
+            <p id="con-intro">We are very passionate about our website and this was done as a project for a competition against other groups that have created websites. If you have any feedback or anything to say to us regarding our website feel free to contact us.</p>
+
+            <h2>Contact Us</h2>
+				
+            <div class="form">
+                <form action="https://formspree.io/[your email address goes here]" method="post">
+                    
+                    <p>
+                        <label for="contact-name">Your Name</label><br>
+                        <input id="contact-name" type="text" name="contact-name" />
+                    </p>
+                    
+                    <p>
+                        <label for="contact-email">Your email address</label><br>
+                        <input id="contact-email" type="text" name="contact-email" />
+                    </p>
+                        
+                    <p>
+                        <label for="contact-phone">Your phone number</label><br>
+                        <input id="contact-phone" type="text" name="contact-phone" /> 
+                    </p>
+                        
+                    <p>
+                        <label for="contact-message">Your message</label><br>
+                        <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                    </p>
+                    
+                    <p>
+                        <input type="submit" value="Send my message" /> 
+                    </p>
+                    
+                </form>
+            </div>
+        </section>
+
+        <br>
+        <br>
+
+        <section class="contrib">
+            <h2>People's Contributions</h2>
+            <img src="images/seal.jpeg" alt="A seal looking sassy">
+                <ul>
+                    <li>Patricija</li>
+                    <p>Patricija designed the bird section and the website's home page.<br>
+                    She set the style of the css, with the goal of achieving a sleek and modern look.</p>
+                    <li>Sam</li>
+                    <p>Sam designed the mammals section of the website.<br>
+                    He was the one who designed our drop down navigation bar.</p>
+                    <li>Nikita</li>
+                    <p>Nikita designed the insect section of the website. <br>
+                    He styled the contact form.</p>
+                    <li>Oyinda</li>
+                    <p>Oyinda designed the marine life section of the website.<br>
+                    She also designed the table of individual problems experienced during this group project.</p>
+                    <li>Jack</li>
+                    <p>Jack designed the reptile section of the website.<br> 
+                    He also designed the list of people's contribution, and tested out our css ideas.</p>
+                            
+                </ul>
+        </section>
+
+
+        
+        <section class="indiv">
+            <table id="problems">
+                <tr>
+                    <th>Name</th>
+                    <th>Problem</th>
+                </tr>
+                <tr>
+                    <td>Patricija</td>
+                    <td>I struggled with the navigation bar because I didn’t know how the dropdown mechanism worked. I searched for many versions of code and they used div elements rather than the nav element but I thought I could somehow integrate those two together but it didn’t work because the dropdown content was scattered beside the sections rather than hidden so I discarded that thought and just worked with the div elements.<br>
+                    I was overcomplicating the containers for the images’ description located at the end of the individual bird pages like the flamingo page. I originally used the code from W3 for side-by-side images but then the footer content was acting up and I couldn’t style it properly. I discarded that and later found that using width property was simpler to use.</td>
+                </tr>
+                <tr>
+                    <td>Jack</td>
+                    <td>A mistake I made was using lists for the animal facts on each home page. While it worked at the start it then caused problems when I decided to change other parts of the website, so I went back and changed it to p tags instead.<br>
+                    Another mistake I made was not putting in any css comments so when my group members went to look at my code they didn’t know where each piece was.</td>
+                </tr>
+                <tr>
+                    <td>Nikita</td>
+                    <td>I struggled with my header images for my individual homepages. At first the images would always take up a large portion of the screen and I could not make it fit into the header section. I fixed this by making the position relative and make the margin: 0 auto. Then another problem occured where my text would be too small for the header image and would not fit in the right place. I went onto w3schools and found a solution where it would perfectly match up with the width of the image by making the position absolute and changing the width to 99%.<br>
+                    I also struggled with the alternating grey and white backgrounds in the image gallery section on the homepage. I couldn't make it so that both the text underneath the images and the images themselves would have the same back, it would always be one or the other. I realised I used to many section tags that might have been causing the problem. I made a section tag for each animal images and text which was a mistake. I got rid of the section tags and just add div tags explaining what part would be grey or white and making the text under the images underneath the that same div instead of making a new seperate one.</td>
+                </tr>
+                <tr>
+                    <td>Oyinda</td>
+                    <td>A problem I faced during the course of this project was adding the background image. I forgot to add the fixed attribute to the end and my page looked weird.<br>
+                    Another problem I faced was getting the nav bar to have a drop down menu. I didn't properly format the code which led to it overlapping at some points.
+                </td>
+                </tr>
+                <tr>
+                    <td>Sam</td>
+                    <td>I was struggling with putting a fixed picture in a background in a certain section of the page. I made the mistake of using section, however after many attempts I realised I could do it with the div tag.<br>
+                    Another mistake I made was that lion-facts-pic was not styling how I wanted it to. I fixed this by making it a div.</td>
+            </table>
+        </section>
+
+
+
+        <footer id="footer">
+            <p> 
+                &copy;  <a href="dcu.ie/">DCU 2019-2020</a>
+                <span >&middot;</span>
+                <span>Group 6</span>
+                <span>&middot;</span> 
+                <span>This is student coursework.</span>
+                <span>&middot;</span> 
+                <span>Lecturer <a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> 
+                <span>&middot;</span> 
+                <span><a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/></span> 
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>
